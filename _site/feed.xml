@@ -5,12 +5,12 @@
     <description>A blog about the cloud, and modern tooling.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Aug 2016 02:10:46 +0000</pubDate>
-    <lastBuildDate>Sun, 28 Aug 2016 02:10:46 +0000</lastBuildDate>
+    <pubDate>Sun, 28 Aug 2016 02:23:08 +0000</pubDate>
+    <lastBuildDate>Sun, 28 Aug 2016 02:23:08 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Testing the waters</title>
+        <title>Testing the Waters</title>
         <description>&lt;h1 id=&quot;who-am-i&quot;&gt;Who Am I?&lt;/h1&gt;
 
 &lt;p&gt;Hi, I am a systems engineer at a “Sales Enablement Company” called Brainshark. Currently my role focuses on Infrastructure and building automation tooling with &lt;strong&gt;Powershell and Azure Resource Manager Templates&lt;/strong&gt;&lt;/p&gt;
@@ -22,7 +22,7 @@
 &lt;p&gt;Currently, I have been spending a lot of time automating the cloud and building out things a little more complex than game servers. I am excited to share some of the cool projects I am working on and hopefully help others find better ways of doing things or even just seeing your opinions and ideas based on what I share!&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 27 Aug 2016 10:20:00 +0000</pubDate>
         <link>/articles/2016-08/initial-post</link>
         <guid isPermaLink="true">/articles/2016-08/initial-post</guid>
         
