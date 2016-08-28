@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: Lifting the Clouds
+title: beaudry.io
 email: 
 description: A blog about the cloud, and modern tooling.
 url: # the base hostname & protocol for your site
@@ -38,7 +38,7 @@ owner:
   job: "Systems Engineer"
   bio: "An Engineer who loves learning new things, developing for the cloud, and helping to streamline processes."
   email:
-  disqus-shortname: liftingthecloud
+  disqus-shortname: beaudry
   twitter: joebeau93
   facebook: #username
   google:

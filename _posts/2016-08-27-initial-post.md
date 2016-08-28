@@ -1,12 +1,14 @@
 ---
 layout: post
-title: Testing the waters 
+title: "Testing the Waters"
+excerpt: 
 tags: [Learning]
-modified: 2016-08-27
+modified: 2016-08-27 10:20:00
+date: 2016-08-27 10:20:00
 comments: true
-image: 
- feature: 
- thumb:
+image:
+ feature:
+ thumb: 
 ---
 
 # Who Am I? 
