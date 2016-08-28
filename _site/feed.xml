@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Leonids</title>
-    <description>A simple and awesome blog theme powered by jekyll.</description>
+    <title>Lifting the Clouds</title>
+    <description>A blog about the cloud, and modern tooling.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 Aug 2016 01:15:32 +0200</pubDate>
-    <lastBuildDate>Sun, 28 Aug 2016 01:15:32 +0200</lastBuildDate>
+    <pubDate>Sun, 28 Aug 2016 03:03:10 +0000</pubDate>
+    <lastBuildDate>Sun, 28 Aug 2016 03:03:10 +0000</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -28,7 +28,7 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 18 Aug 2015 17:07:19 +0200</pubDate>
+        <pubDate>Tue, 18 Aug 2015 15:07:19 +0000</pubDate>
         <link>/articles/2015-08/welcome-to-jekyll</link>
         <guid isPermaLink="true">/articles/2015-08/welcome-to-jekyll</guid>
         
@@ -141,7 +141,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Fri, 16 Aug 2013 00:00:00 +0200</pubDate>
+        <pubDate>Fri, 16 Aug 2013 00:00:00 +0000</pubDate>
         <link>/articles/2013-08/code-highlighting-post</link>
         <guid isPermaLink="true">/articles/2013-08/code-highlighting-post</guid>
         
@@ -160,7 +160,7 @@
 
 &lt;p&gt;Some &lt;a href=&quot;http://renyuanz.github.io&quot;&gt;link&lt;/a&gt; can also be shown.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 12 Aug 2013 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 12 Aug 2013 00:00:00 +0000</pubDate>
         <link>/articles/2013-08/sample-link-post</link>
         <guid isPermaLink="true">/articles/2013-08/sample-link-post</guid>
         
@@ -220,7 +220,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Thu, 23 May 2013 00:00:00 +0200</pubDate>
+        <pubDate>Thu, 23 May 2013 00:00:00 +0000</pubDate>
         <link>/articles/2013-05/readability-feature-post</link>
         <guid isPermaLink="true">/articles/2013-05/readability-feature-post</guid>
         
@@ -274,7 +274,7 @@
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 22 May 2012 00:00:00 +0200</pubDate>
+        <pubDate>Tue, 22 May 2012 00:00:00 +0000</pubDate>
         <link>/articles/2012-05/readability-post</link>
         <guid isPermaLink="true">/articles/2012-05/readability-post</guid>
         
@@ -407,7 +407,7 @@
 
 &lt;p class=&quot;notice&quot;&gt;&lt;strong&gt;Watch out!&lt;/strong&gt; You can also add notices by appending &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;err&quot;&gt;.notice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt; to a paragraph.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 10 Mar 2011 00:00:00 +0100</pubDate>
+        <pubDate>Thu, 10 Mar 2011 00:00:00 +0000</pubDate>
         <link>/articles/2011-03/sample-post</link>
         <guid isPermaLink="true">/articles/2011-03/sample-post</guid>
         
