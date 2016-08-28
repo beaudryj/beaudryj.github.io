@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Testing the waters 
-excerpt: "Hi, I am a systems engineer at a "Sales Enablement Company" called Brainshark. Currently my role focuses on Infrastructure and building automation tooling with **Powershell and Azure Resource Manager Templates**"
 tags: [Learning]
 modified: 2016-08-27
 comments: true
