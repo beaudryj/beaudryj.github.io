@@ -31,7 +31,7 @@ This will require:
 
 **If you have git installed**
 
-```
+```POWERSHELL
 cd C:\Users\%youruser%\Documents\WindowsPowerShell\Modules
 git clone https://github.com/Jaykul/BetterCredentials
 ```
@@ -41,7 +41,7 @@ git clone https://github.com/Jaykul/BetterCredentials
 
 Download the module from the git repo and extract it to 
 
-```
+```POWERSHELL
 C:\Users\%youruser%\Documents\WindowsPowerShell\Modules
 ```
 
@@ -49,7 +49,7 @@ C:\Users\%youruser%\Documents\WindowsPowerShell\Modules
 
 **If you are on powershell version 5**
 
-```
+```POWERSHELL
 Install-Module BetterCredentials
 ```
 
@@ -58,7 +58,7 @@ Install-Module BetterCredentials
 
 Now you need to create the credential in your credential manager. 
 
-```
+```POWERSHELL
 #Use this line to store your credentials to a variable to pass to the command to add to the windows credential manager
 $Creds = Get-Credential 
 #Used to store the credentials 
@@ -77,7 +77,7 @@ And this will allow you to easily/quickly pull your credentials from the Windows
 Now that you have the initial pieces in place you can modify your profile to configure the auto login.
 *this can be found here* -  `C:\Users\%yourUser%\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1`
 
-```
+```POWERSHELL
 Import-Module BetterCredentials
 $AzureCreds = BetterCredentials\Get-Credential -username "yourUsername"
 Login-AzureRmAccount -SubscriptionName "your desired default subscription" -Credential $AzureCreds
