@@ -7,7 +7,7 @@ modified: 2016-08-28 00:44:00
 date: 2016-08-28 00:44:00
 comments: true
 image:
- feature: AzurePowershell
+ feature: AzurePowershell.png
 ---
 
 # Do you find logging into azure powershell as annoying as I do? 
@@ -16,10 +16,10 @@ Recently I have been getting annoyed with the constant need to log in to an Azur
 
 I took a minute and thought about how to make the shell a bit smarter and figure out a way for my session to already be logged in to AzureRM when I open it. 
 
-This will require - 
- - https://github.com/Jaykul/BetterCredentials
- - https://www.powershellgallery.com/packages/AzureRM/2.0.1 (Currently the latest as of writing this)
- - And an active azure subscription 
+This will require 
+ * https://github.com/Jaykul/BetterCredentials
+ * https://www.powershellgallery.com/packages/AzureRM/2.0.1 (Currently the latest as of writing this)
+ * And an active azure subscription 
  
 ## Install and Use Better Credentials 
 
@@ -32,9 +32,20 @@ cd C:\Users\%youruser%\Documents\WindowsPowerShell\Modules
 git clone https://github.com/Jaykul/BetterCredentials
 ~~~~
 
+
+  
+  
+  
 **If no git**
+
 Download the module from the git repo and extract it to 
-C:\Users\%youruser%\Documents\WindowsPowerShell\Modules
+
+*C:\Users\%youruser%\Documents\WindowsPowerShell\Modules*
+
+
+ 
+  
+  
 
 **If you are on powershell version 5**
 
