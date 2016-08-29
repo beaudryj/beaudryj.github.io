@@ -17,10 +17,13 @@ Recently I have been getting annoyed with the constant need to log in to an Azur
 
 I took a minute and thought about how to make the shell a bit smarter and figure out a way for my session to already be logged in to AzureRM when I open it. 
 
-This will require 
+This will require:
+
  *   https://github.com/Jaykul/BetterCredentials
  *   https://www.powershellgallery.com/packages/AzureRM/2.0.1 (Currently the latest as of writing this)
  *   And an active azure subscription 
+
+
  
 ## Install and Use Better Credentials 
 
@@ -64,9 +67,7 @@ BetterCredentials\Get-Credential -Credential $Creds -Store
 
 Once Stored, you are now able to run
 
-~~~~
-$AzureCreds = BetterCredentials\Get-Credential -username "yourUsername"
-~~~~
+*$AzureCreds = BetterCredentials\Get-Credential -username "yourUsername"*
 
 And this will allow you to easily/quickly pull your credentials from the Windows Credential Manager
 
@@ -85,6 +86,7 @@ Login-AzureRmAccount -SubscriptionName "your desired default subscription" -Cred
 ## Closing 
 
 This is just my simple usecase for this, but this use of BetterCredentials and its ability to store and grab from the Credential manager can offer you some other solutions: 
+
  *   Other Modules requiring Credentials you want Stored
  *   Light automation where you don't want to pass in plaintext passwords
  *   Scheduled tasks 
