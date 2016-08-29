@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Testing the Waters"
+title: "Using Credentials in your Profile"
 excerpt: 
 tags: [azure,powershell]
 modified: 2016-08-28 00:44:00
@@ -10,11 +10,11 @@ image:
  feature: AzurePowershell
 ---
 
-# Are you as annoyed with logging into your shell for a quick job as I am ? 
+# Do you find logging into azure powershell as annoying as I do? 
 
-This past week I had been working on some developmental infrastructure in azure that I have not fully automated yet. This process has some speed bumps and annoyances with azure. The biggest one being that when I open my powershell prompt to work with it I have to log into Azure. Which is fine for quick tasks and doing things that I can do fairly mindlessly. But it has gotten to the point where I need 3 or 4 session open to work on what I have or else I have to carry out the tasks in serial. 
+Recently I have been getting annoyed with the constant need to log in to an Azure Subscription on my powershell sessions, so I decided to solve this but tweaking my profile with a module that allows me to grab from the Windows Credential Manager.
 
-So I took a minute and thought about how to make the shell a bit smarter and figure out a way for my session to already be logged in when I open it. 
+I took a minute and thought about how to make the shell a bit smarter and figure out a way for my session to already be logged in to AzureRM when I open it. 
 
 This will require - 
  - https://github.com/Jaykul/BetterCredentials
