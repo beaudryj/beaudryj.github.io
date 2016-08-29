@@ -17,6 +17,7 @@ Recently I have been getting annoyed with the constant need to log in to an Azur
 I took a minute and thought about how to make the shell a bit smarter and figure out a way for my session to already be logged in to AzureRM when I open it. 
 
 This will require 
+
  * https://github.com/Jaykul/BetterCredentials
  * https://www.powershellgallery.com/packages/AzureRM/2.0.1 (Currently the latest as of writing this)
  * And an active azure subscription 
@@ -34,17 +35,13 @@ git clone https://github.com/Jaykul/BetterCredentials
 
 
   
-  
-  
 **If no git**
 
 Download the module from the git repo and extract it to 
+~~~~
+C:\Users\%youruser%\Documents\WindowsPowerShell\Modules
+~~~~
 
-*C:\Users\%youruser%\Documents\WindowsPowerShell\Modules*
-
-
- 
-  
   
 
 **If you are on powershell version 5**
@@ -65,10 +62,12 @@ $Creds = Get-Credential
 BetterCredentials\Get-Credential -Credential $Creds -Store
 ~~~~ 
 
-Once Stored, you are now able to run: 
+Once Stored, you are now able to run
+
 ~~~~
 $AzureCreds = BetterCredentials\Get-Credential -username "yourUsername"
 ~~~~
+
 And this will allow you to easily/quickly pull your credentials from the Windows Credential Manager
 
 
