@@ -91,6 +91,12 @@ This is just my simple usecase for this, but this use of BetterCredentials and i
  *   Light automation where you don't want to pass in plaintext passwords
  *   Scheduled tasks 
   
+ ### Unordered Lists
+
+* Item one
+* Item two
+* Item three
+  
 Hopefully this helps you out and you come up with some other things to share. 
 
 
