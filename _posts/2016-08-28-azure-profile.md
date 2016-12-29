@@ -7,8 +7,8 @@ modified: 2016-08-28 00:44:00
 date: 2016-08-28 00:44:00
 comments: true
 image:
- feature: AzurePowershell.png
- thumb: AzurePowershell.png
+ feature: {{ site.url }}/AzurePowershell.png
+ thumb: {{ site.url }}/AzurePowershell.png
 ---
 
 # Do you find logging into azure powershell as annoying as I do? 
