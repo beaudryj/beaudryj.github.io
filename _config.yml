@@ -35,7 +35,7 @@ kramdown:
 #
 owner:
   name: Joe Beaudry
-  avatar: me.jpg
+  avatar: {{ site.url }}/me.jpg
   job: "Systems Engineer"
   bio: "An Engineer who loves learning new things, developing for the cloud, and helping to streamline processes."
   email:
