@@ -6,7 +6,9 @@
 title: beaudry.io
 email: 
 description: A blog about the cloud, and modern tooling.
-url: https://beaudry.io
+url: 'https://beaudry.io'
+enforce_ssl: beaudry.io
+baseurl: /
 
 
 #
@@ -27,7 +29,6 @@ kramdown:
   toc_levels: 1..6
   enable_coderay: false
 
-#
 ###################################
 # Site Owner configuration
 ####################################
